@@ -4,6 +4,7 @@ SUBDIRS = \
 	src
 
 EXTRA_DIST = \
+	COPYING \
 	README.md \
-	query.conf \
-	templates/
+	conf/libzbxpgsql.conf \
+	templates/*.xml
